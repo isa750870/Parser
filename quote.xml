@@ -1,0 +1,11 @@
+<config>
+    <comment>Настройки API-сервиса</comment>
+    <constant name="api_url">"https://api.example.com"</constant>
+    <constant name="timeout">60</constant>
+    <array name="allowed_methods">
+        <item>"GET"</item>
+        <item>"POST"</item>
+        <item>"PUT"</item>
+    </array>
+    <evaluation name="api_url">"https://api.example.com"</evaluation>
+</config>

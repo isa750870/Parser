@@ -1,0 +1,14 @@
+<config>
+    <comment>
+    Это пример конфигурации для настроек системы
+    настроек системы
+    </comment>
+    <constant name="max_connections">100</constant>
+    <array name="allowed_ips">
+        <item>"192.168.1.1"</item>
+        <item>"192.168.1.2"</item>
+        <item>"192.168.1.3"</item>
+    </array>
+    <constant name="timeout">30</constant>
+    <evaluation name="max_connections">100</evaluation>
+</config>

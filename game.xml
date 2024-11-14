@@ -1,0 +1,11 @@
+<config>
+    <comment>Настройки персонажа в игре</comment>
+    <constant name="player_health">100</constant>
+    <constant name="player_speed">10</constant>
+    <array name="player_inventory">
+        <item>"sword"</item>
+        <item>"shield"</item>
+        <item>"potion"</item>
+    </array>
+    <evaluation name="player_health">100</evaluation>
+</config>
